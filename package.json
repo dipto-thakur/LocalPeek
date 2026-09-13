@@ -1,5 +1,5 @@
 {
-  "name": "localpeek",
+  "name": "@diptothakur/localpeek",
   "version": "1.0.0",
   "description": "Open your local dev project on your phone over LAN. Zero cloud, zero tunnels, zero setup.",
   "keywords": [
@@ -12,21 +12,24 @@
     "vite",
     "nextjs"
   ],
-  "license": "MIT",
-  "author": "Dipto Thakur (https://github.com/dipto-thakur)",
   "homepage": "https://github.com/dipto-thakur/localpeek",
+  "bugs": {
+    "url": "https://github.com/dipto-thakur/localpeek/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dipto-thakur/localpeek.git"
+    "url": "git+https://github.com/dipto-thakur/localpeek.git"
   },
-  "bin": {
-    "localpeek": "./bin/localpeek.js",
-    "lp": "./bin/localpeek.js"
-  },
-  "main": "src/cli.js",
+  "license": "MIT",
+  "author": "Dipto Thakur (https://github.com/dipto-thakur)",
   "type": "commonjs",
-  "engines": {
-    "node": ">=16"
+  "main": "src/cli.js",
+  "bin": {
+    "localpeek": "bin/localpeek.js",
+    "lp": "bin/localpeek.js"
+  },
+  "directories": {
+    "test": "test"
   },
   "files": [
     "bin",
@@ -40,5 +43,9 @@
   },
   "dependencies": {
     "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=16"
   }
 }

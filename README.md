@@ -3,6 +3,7 @@
 # LocalPeek
 
 **See your local dev project on your phone in 5 seconds zero cloud, zero tunnels, zero setup.**
+
 One command turns any `localhost` project into a scannable QR code on your own Wi-Fi.
 
 [![npm version](https://img.shields.io/npm/v/localpeek.svg)](https://www.npmjs.com/package/localpeek)

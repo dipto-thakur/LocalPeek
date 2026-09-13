@@ -6,9 +6,10 @@
 
 One command turns any `localhost` project into a scannable QR code on your own Wi-Fi.
 
-[![npm version](https://img.shields.io/npm/v/localpeek.svg)](https://www.npmjs.com/package/localpeek)
+[![npm version](https://img.shields.io/badge/npm-v1.0.0-blue.svg)](https://www.npmjs.com/package/localpeek)
 [![npm downloads](https://img.shields.io/npm/dm/localpeek.svg)](https://www.npmjs.com/package/localpeek)
-[![node](https://img.shields.io/node/v/localpeek.svg)](https://nodejs.org)
+[![license](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
+[![node](https://img.shields.io/badge/node-%3E%3D16-brightgreen.svg)](https://nodejs.org)
 
 ```bash
 npx localpeek
